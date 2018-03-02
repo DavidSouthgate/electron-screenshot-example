@@ -1,0 +1,39 @@
+# Ignore the databases we make: #
+*.db
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+*.pyc
+CSQ/migrations/*
+*.aux 
+*.bbl 
+.idea/
+C
+.ide
+
+# Electron stuff #
+######################
+
+./node_modules/*
+./YACRS2/node_modules/*
+./package-lock.json
+
+
+node_modules
+YACRSControl-*
+dist
